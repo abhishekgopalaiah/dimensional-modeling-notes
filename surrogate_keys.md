@@ -12,9 +12,10 @@ Example:
 
 Customer Dimension
 
-| customer_sk	| customer_id (BK)	| name	| city	| effective_from | effective_to
-| 101	| C1001	| John	| NY	| 2024-01-01	| 2024-06-01
-| 102	| C1001	| John	| LA	| 2024-06-01	| 9999-12-31
+| customer_sk | customer_id (BK) | name | city | effective_from | effective_to |
+|-------------|------------------|------|------|----------------|--------------|
+| 101         | C1001            | John | NY   | 2024-01-01     | 2024-06-01   |
+| 102         | C1001            | John | LA   | 2024-06-01     | 9999-12-31   |
 
 	•	customer_id = business key (from source)
 	•	customer_sk = surrogate key (warehouse key)
