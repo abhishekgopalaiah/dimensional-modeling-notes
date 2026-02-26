@@ -365,7 +365,15 @@ If asked:
 
 > Retroactive dimension correction refers to fixing historical inconsistencies when a dimension change effective in the past is discovered late. This is typically implemented by reprocessing or updating affected fact rows so they reference the correct historical surrogate keys.
 
-That’s clean and senior.
+Is late arriving dimension same as correction?
+
+Weak answer:
+
+> Yes, both require update.
+
+Strong answer:
+
+> No. Late arriving is a timing issue where data is valid but delayed. Correction involves fixing incorrect historical data, which may require reprocessing fact joins and SCD history adjustments.
 
 ---
 
