@@ -6,20 +6,21 @@
 ---
 
 A dimension represents business entities or descriptive attributes that help analyze numeric data stored in fact tables.
+
 Examples of dimensions:
 
-Date
-Customer
-Product
-Store
-Region
-Employee
+- Date
+- Customer
+- Product
+- Store
+- Region
+- Employee
 
 These dimensions answer questions like:
 
-“What product?”
-“Sold to which customer?”
-“In which location?”
+* “What product?”
+* “Sold to which customer?”
+* “In which location?”
 
 
 ---
